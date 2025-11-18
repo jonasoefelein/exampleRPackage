@@ -1,0 +1,23 @@
+Package: exampleRPackage
+Type: Package
+Title: Super Useful Stuff
+Version: 0.1.0
+Date: 2025-11-18
+Authors@R: c(
+    person(
+        "Jonas", "Oefelein",
+        email = "jonas.oefelein@fmi.ch", 
+        role = c("aut", "cre"),
+    )
+  )
+Description: Provides super useful functions that will be helpful in 
+    all future projects.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.3
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    stringr
